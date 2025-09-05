@@ -1,2 +1,2 @@
-# Hackkerank
-Hackerrank Solved problem at Python 
+# List
+Solving problems at list concept 
