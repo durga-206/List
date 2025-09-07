@@ -1,5 +1,7 @@
-li=input().split()
-add=0
-for i in li:
+def addi(li):
+ add=0
+ for i in li:
     add+=int(i)
-print(add)
+ return add
+li=input().split()
+print(addi(li))

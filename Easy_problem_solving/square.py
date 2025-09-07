@@ -1,6 +1,8 @@
-li=input().split()
-square=list()
-for i in li:
+def square(li):
+ square=list()
+ for i in li:
     square.append(int(i)*int(i))
-print(square)
+ return square
+li=input().split()
+print(square(li))
     

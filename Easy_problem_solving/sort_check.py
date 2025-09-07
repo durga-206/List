@@ -3,10 +3,10 @@ sort=[]
 temp=0
 for i in li:
     a=int(i)
-    b=int(i+1)
+    b=int(i)+1
     if a>b:
         temp=a
         a=b
-        b=a
-        sort.append(a)
+        b=temp
+        sort.append(temp)
 print(sort)
